@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div>
+                    <span class="name">A</span><span class="edit">NKIT KUMAR SINGH</span>
+                </div>
+                 <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">contact</a></li>
+                    
+                 </ul>
+                              
+            </nav>
+            <div class="header-text">
+                <p>Jr Software/Web developer </p>
+                <h1>Hi, I'm <span>Ankit</span>
+                    <span class="emoji"> <br>from India</h1>
+            </div>
+        </div>
+    
+        <!-- ------------about section------------ -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1"> 
+                    <img src="profile.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                    <p>Motivated and dedicated computer science  with a strong   commitment to tackling complex challenges. I bring a strong foundation in problem-solving and critical thinking to the table, constantly seeking innovative solutions. My primary goal is to secure a challenging role with a respected organization, where I can further hone my skills, broaden my knowledge, and apply my expertise effectively. I am eager to seize opportunities that allow me to not only maximize my abilities but also contribute significantly to the growth and success of the company.</p>
+
+                    <div class="title">
+                        <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+                        <p class="tab-links" onclick="opentab('education', event)">Education</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>full-stack developer</span><br>
+                            HTML/css/Java Script/Bootstrap/Reactjs/SQL/Nodejs/Mongodb</li>
+                            <li><span>Core-languages</span><br>Java/C</li>
+                        </ul>
+                    </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>01-2023/05-2023</span><br>Networking intern at Cisco</li>
+                        <li><span>08-2023/09-2023</span><br>Full-stack intern at CodeClause</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020-2024</span><br>BE-Computer Science and Enginerring from KCG College of technology (Anna University)<br></li>
+                        <li><span>2019(State Board)</span><br>Bihar School Examination Board (HSC)</li>
+                        <li><span>206-2017(CBSC)</span><br>Jean Paul's High School (SSC)</li>
+                    </ul>
+                </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ----------------projects----------- --> 
+         <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="project-list">
+                    <div class="work">
+                        <img src="shoe1.jpg">
+                        <div class="layer">
+                            <h3>Simple shoes website</h3>
+                            <a href="https://kcgcollegestore.000webhostapp.com/"><i class="fa-solid fa-link"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="work">
+                        <img src="todo.jpg">
+                        <div class="layer">
+                            <h3>To set a list of own work</h3>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="avator1.jpg">
+                        <div class="layer">
+                            <h3>Generation of avatar with name</h3>
+                            <a href="https://ankit13singh5656.github.io/generating-awatar-with-name/"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                 <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+      <!-- --------------contact------------- -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left"> 
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>ankit13singh5656@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i>+91-9608867519</p>
+                    <div class="social-icon">
+                        
+                        <a href="https://www.linkedin.com/in/ankit-kumar-singh-85039b219/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/dev__ankit_?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/ankit13singh5656"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://leetcode.com/ankit13singh5656/"><i class="fa-brands fa-leetcode"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100009361747157&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="Ankit_kumar_singh_resume.pdf" download class="btn btn2">Download resume</a>
+                </div>
+
+                <div class="contact-right">
+
+                    <form name="submit-to-google-sheet" onsubmit="submitToGoogleSheet(event);">
+                        <input type="text" name="Name" placeholder="Your name" id="name" required>
+                        <input type="email" name="email" placeholder="Your Email" id="email" required>
+                        <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2" >Submit</button>
+                        <span id="msg"></span>
+                    </form>
+
+            </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copy right @ Ankit  <i class="fa-solid fa-code"></i></p>
+        </div>
+      </div>
+   
+
+</body>
+</html>
